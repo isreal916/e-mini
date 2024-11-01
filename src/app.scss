@@ -1,0 +1,91 @@
+@import './font.scss';
+@import './components/product/product';
+@import './components/cart/cart';
+@import './components/modal/modal';
+
+* {
+
+  box-sizing: border-box;
+  font-family: redhat;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex: 80%;
+  flex-wrap: wrap;
+
+}
+
+.cart {
+  flex: 40%;
+  background-color: white;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cart * {
+  margin: auto;
+  margin-top: 5px
+}
+
+.main-container {
+  display: flex;
+}
+
+.order-total {
+  width: 95%
+}
+
+.order-total p {
+  display: inline
+}
+
+.order-total strong {
+  float: right;
+}
+
+.inline {
+  display: inline;
+}
+
+.order-type {
+  background-color: hsl(20, 50%, 98%);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  width: 90%;
+}
+
+.confirm {
+  width: 90%;
+  text-align: center;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: hsl(14, 86%, 42%);
+  margin-top: 10px;
+  margin-left: 15px
+}
+
+.active {
+  border: 2px solid hsl(14, 86%, 42%);
+}
+
+.empty-cart {
+  padding: 20px 0 60px 40px;
+  text-align: center;
+}
+
+@media (max-width:475px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .container {
+    flex: 100%;
+  }
+}

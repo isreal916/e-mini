@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+  font-family: redhat;
+  
+}
+body{
+  display: flex;
+  background-color: hsl(20, 50%, 98%);
+  flex-direction: row;
+}
+@media (max-width:475px){
+  body{
+    flex-direction: column;
+  }
+}

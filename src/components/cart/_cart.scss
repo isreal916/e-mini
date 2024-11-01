@@ -1,0 +1,27 @@
+
+
+
+.cart-product{
+  /* width:300px; */
+  position: relative;
+  width: 90%;
+  padding: 15px;
+  border-bottom: 2px solid rgb(121, 110, 110);
+
+}
+
+.cart-product img{
+border-radius: 50%;
+border:2px solid rgb(194, 81, 81);
+position:absolute;
+right:0;
+top: 20px;
+ width:20px;
+}
+.cart-product p {
+  font-weight: bold;
+  margin:auto
+}
+.cart-product span{
+  margin-left:3px;
+}
