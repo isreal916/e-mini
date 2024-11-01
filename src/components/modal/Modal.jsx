@@ -62,7 +62,7 @@ export const Modal = ({ order ,total}) => {
             <p>Order Total</p>
             <strong>${total}</strong>
           </div>
-          <p className="confirm">Start New Order</p>
+          <p className="confirm" onClick={()=>window.location.reload()} >Start New Order</p>
 
         </div>
       </div>
